@@ -34,6 +34,15 @@
             "imageWidth": 76
           }
         }
+      ],
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Closet App to access your photos so you can add clothing images.",
+          "microphonePermission": false
+        }
       ]
     ],
     "experiments": {
